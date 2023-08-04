@@ -1,5 +1,3 @@
-use std::arch::aarch64::int32x2_t;
-
 use crate::models::{NewTask, Task};
 use crate::service::{create_task_record, delete_task_record, get_task_records};
 use rocket::response::{status::Created, status::NoContent, Debug};

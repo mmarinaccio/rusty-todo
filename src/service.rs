@@ -1,6 +1,6 @@
 use crate::db::establish_connection;
 use crate::models::{NewTask, Task};
-use diesel::{prelude::*, Identifiable};
+use diesel::prelude::*;
 
 pub fn create_task_record(task: NewTask) -> Task {
     use crate::schema::tasks::dsl::*;

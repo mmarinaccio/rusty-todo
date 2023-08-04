@@ -3,7 +3,7 @@ use diesel::{AsChangeset, Insertable, Queryable};
 use rocket::serde::{Deserialize, Serialize};
 
 #[derive(Insertable, Serialize, Deserialize)]
-#[table_name = "tasks"]
+#[diesel(table_name = tasks)]
 pub struct NewTask<'a> {
     pub title: &'a str,
     pub body: &'a str,
