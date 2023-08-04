@@ -6,7 +6,7 @@ It's a Rusty TO-DO list!
 
 ## Routes:
 * GET http://127.0.0.1:8000/tasks
-* CREATE GET http://127.0.0.1:8000/tasks
+* CREATE http://127.0.0.1:8000/tasks
 * DELETE http://127.0.0.1:8000/tasks/{id}
 
 ## Powered by:
