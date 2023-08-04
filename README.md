@@ -1,4 +1,4 @@
-It's a Rusty TO-DO list!
+# It's a Rusty TO-DO list!
 
 ## To run:
 1. Install docker, docker-compose
